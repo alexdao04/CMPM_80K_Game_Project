@@ -1,0 +1,4779 @@
+{
+  "firstLayout": "Title Screen",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "353baa66-f2f5-4830-b74e-52996487d61b",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "BOOM",
+    "description": "Game where you carry out different missions to progress humanity and protect the world from outsiders",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [
+      "Q7qBuYKLvVQgnyajreo0h9h4Rbd2"
+    ],
+    "authorUsernames": [
+      "suramya"
+    ],
+    "categories": [
+      "shooter"
+    ],
+    "playableDevices": [
+      "keyboard"
+    ],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue spaceship 3_1.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Blue spaceship 3_1.png\",\"extension\":\".png\"}",
+        "name": "Blue spaceship 3_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Ship/c7595c84feaf69b48397003357cc08356faa26a7bcd13a52dba7334a287aa686_Blue spaceship 3_1.png",
+          "name": "Blue spaceship 3_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_purple space.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_purple space.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Backgrounds/9bca92da2d3a7e7c50e16c4a59f794907d14514d5a109febdeb101e82888979c_tiled_purple space.png",
+          "name": "tiled_purple space.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_blue space.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_blue space.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Backgrounds/2948b735772413c7f19d8ffbbca435a38bd99f044a71d23542f4e73d91cbba47_tiled_blue space.png",
+          "name": "tiled_blue space.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue laser 01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue laser 01.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/31316b472837b9506e86c805ea8ae1c7f955b8d0c12cf1f89727502337456777_Blue laser 01.png",
+          "name": "Blue laser 01.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_dark purple space.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_dark purple space.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Backgrounds/59a7d361a270a586a7079a0b2b074758f56d5a1d9f9b83811686cfe95fdfce9a_tiled_dark purple space.png",
+          "name": "tiled_dark purple space.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Starry Background Big Star 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Starry Background Big Star 1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/Backgrounds/7b80587e51dc7941acbde3a9e7cec4dce4e8f8b972c78b645ad2efcb8cfa1f63_Starry Background Big Star 1.png",
+          "name": "Starry Background Big Star 1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Starry Background Stars 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Starry Background Stars 2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/Backgrounds/1dd0ee3b6ee4b0545ef9b3723a60ee4a10bb29bfd0fdd4845c460ba69bec4ce0_tiled_Starry Background Stars 2.png",
+          "name": "tiled_Starry Background Stars 2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Title (PH).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Title (PH).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Button_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/bff6adc488c7379b21ceba34e9104e861791b2fbb54b4aae167fe90115b92fa3_Green Button_Hovered.png",
+          "name": "Green Button_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Button_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f46d20e99495562ee66ee2f26defdb0788588184bd30b1f7b951ae728ce63d2a_Green Button_Idle.png",
+          "name": "Green Button_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Button_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/ecb33703984d3107196efce7335025d7ec104351fe8cdeb581c73fe0b8038c34_Green Button_Pressed.png",
+          "name": "Green Button_Pressed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Yellow Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Yellow Button_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c1e14acb64b9963341656c997853154dc4c86cd1c46fb12bfbe012d99712ef61_Yellow Button_Hovered.png",
+          "name": "Yellow Button_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Yellow Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Yellow Button_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/1cacfd123a1eb708837337c27982f6871f5127c5890dbf0775e0f411958fcbf1_Yellow Button_Idle.png",
+          "name": "Yellow Button_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Yellow Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Yellow Button_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/928c3ea4db1da835c9f8cc5b7089a47228350209d2ff489e1484c31e5ce41b3d_Yellow Button_Pressed.png",
+          "name": "Yellow Button_Pressed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explosion_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "explosion_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Pack (190 assets)/PNG/Retina/Effects/1983e43269e3bc0f6066cdaeadc48bcf323019a5bb81e11f6c19d76c3b014ad3_explosion_1.png",
+          "name": "explosion_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explosion_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "explosion_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Pack (190 assets)/PNG/Retina/Effects/ea41ef1dfd0fb7ada13251ef6793bbb3a12d268121ec9f62957f46c77e643587_explosion_2.png",
+          "name": "explosion_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/explosion_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "explosion_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Pack (190 assets)/PNG/Retina/Effects/22f5bf86ed7f21b255b8a6207a104afaba5db0c4177e29f686cddb25e344f254_explosion_3.png",
+          "name": "explosion_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Big Brown Meteor 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Big Brown Meteor 1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Meteors/ae6802c87f6e3e4739b6260b23e4546582daad3fb803446401fbec2bc057f297_Big Brown Meteor 1.png",
+          "name": "Big Brown Meteor 1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Big Brown Meteor 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Big Brown Meteor 2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Meteors/c783dd20d2d204c471063d95b954fabeea67e09ffb4673678e0821627ce7b596_Big Brown Meteor 2.png",
+          "name": "Big Brown Meteor 2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Big Grey Meteor 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Big Grey Meteor 1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Meteors/821659c429013730ce54bc7259612b06fcaf5563cbed3ce63d0ee73e4de202cd_Big Grey Meteor 1.png",
+          "name": "Big Grey Meteor 1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Big Grey Meteor 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Big Grey Meteor 4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Meteors/899702bd99d00e0c99369c9fd5422bd688abc4ccfc0761d944d660b5eb6c6f2d_Big Grey Meteor 4.png",
+          "name": "Big Grey Meteor 4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ammo crate.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ammo crate.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tank pack (80 assets)/PNG/Retina/1d29813184effeab778a68b427fca89396004687c68e9cb35063d013b433e756_Ammo crate.png",
+          "name": "Ammo crate.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orange barrel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orange barrel.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Industrial Platformer Pack (110 assets)/PNG/Retina/7821f539062202ef4613e249a23f1d7ac000b9c33a98b5e9a834c3e85864ac02_Orange barrel.png",
+          "name": "Orange barrel.png"
+        }
+      },
+      {
+        "file": "assets/mixkit-fast-game-explosion-1688.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\mixkit-fast-game-explosion-1688.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Black spaceship 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Black spaceship 1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Enemies/d115ac3e69e3bb5258b905d775e2b91ca5d698bd8047a10eaae518540ca3954c_Black spaceship 1.png",
+          "name": "Black spaceship 1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Black spaceship 5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Black spaceship 5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Enemies/fc3c913c3aa29fe34fb45b5405d16948f45d424e3f29b0ba099a82565a2a757d_Black spaceship 5.png",
+          "name": "Black spaceship 5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red spaceship 1_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red spaceship 1_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Ship/b331b3700315a046506f289a74e04b71f3decdd90eaddc6fefdb4af856a05d83_Red spaceship 1_1.png",
+          "name": "Red spaceship 1_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red laser 01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red laser 01.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/ce93e902fd396d92508643234ee1457f00ba9673365c7e881cc659a02f53a645_Red laser 01.png",
+          "name": "Red laser 01.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Kenney Mini.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Kenney Mini.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Double-Chevron-Arrow-Right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Double-Chevron-Arrow-Right.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Flat/c0ec0f84d4e5ffbb904544e45d9bcd424f7c9ba1c3866014f3548a8c99b8772f_Double-Chevron-Arrow-Right.png",
+          "name": "Double-Chevron-Arrow-Right.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Bar Red Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat Bar Red Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/212e9679eaae4753beaa5d595d7c80ea66df3235485c6a3963e88b0d936a1798_Flat Bar Red Fill Bar.png",
+          "name": "Flat Bar Red Fill Bar.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Bar White Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat Bar White Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/c090d31cafed0c8ef7bb4d5af75a7dbf7149bcc03a7d5d63ae997d59100e362e_Flat Bar White Border.png",
+          "name": "Flat Bar White Border.png"
+        }
+      },
+      {
+        "file": "assets/Barrel explosion.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Barrel explosion.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Meteor explosion.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Meteor explosion.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Lazers.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Lazers.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Reload.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Reload.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_black space.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_black space.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Backgrounds/82e24c48618660952ceb6cede5c9917ceeb4371c9e971f4a49fb43689d045d89_tiled_black space.png",
+          "name": "tiled_black space.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue spaceship 2_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue spaceship 2_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Ship/2f3effbab4237e852fbe58dfcfd5836028f9a668d63bf25e84d28cbdcf217c6d_Blue spaceship 2_1.png",
+          "name": "Blue spaceship 2_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue Ufo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Ufo.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Ship/132c38aecd65ec84819090e65f6e63b8e6759b84fd67e869077fff75fce31614_Blue Ufo.png",
+          "name": "Blue Ufo.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue spaceship 1_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue spaceship 1_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Ship/5d65b2208f079f9666f4b7245a324a7730f0d22f2694b431c0e314e19c79be0c_Blue spaceship 1_1.png",
+          "name": "Blue spaceship 1_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green spaceship 1_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green spaceship 1_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Ship/057d0e9181dee06741c5f0ecad49824aa756ac5ebe7d0a49b73c9f03ca55816a_Green spaceship 1_1.png",
+          "name": "Green spaceship 1_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Ufo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Ufo.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Ship/2b4a714caf06d48d59fdf976e24f873804cd6aa4f801accb34334dcfc109ddfa_Green Ufo.png",
+          "name": "Green Ufo.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green spaceship 3_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green spaceship 3_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Ship/c70fd90672e6695be2b84a16ca3895fd0c3c3259e66047aaaeffcdafe1147a67_Green spaceship 3_1.png",
+          "name": "Green spaceship 3_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orange spaceship 2_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orange spaceship 2_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Ship/b89d0a7e66f761192712213404d83249f4d9d155a54883a5197b24f74db51e95_Orange spaceship 2_1.png",
+          "name": "Orange spaceship 2_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orange spaceship 1_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orange spaceship 1_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Ship/7d4f695b3bd135cbd47dd67301e30976c73a09518c28e41be96f815e139be85d_Orange spaceship 1_1.png",
+          "name": "Orange spaceship 1_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Ufo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Ufo.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Ship/d3edfa3d13b8af94896d4081d9890a2b86cc5eee18b0dc3f2f267eccce933992_Red Ufo.png",
+          "name": "Red Ufo.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orange spaceship 3_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orange spaceship 3_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Ship/5abeaf795b2d7c342a06be4ae70a6f484bf445f6884d7c456d4f6be66eab8f3a_Orange spaceship 3_1.png",
+          "name": "Orange spaceship 3_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green spaceship 2_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green spaceship 2_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Ship/ab8081636246322dbb5be35c9b4cbed877078479c328dde8326bfdca0f8a6fd6_Green spaceship 2_1.png",
+          "name": "Green spaceship 2_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red spaceship 2_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red spaceship 2_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Ship/87653ef3b8bc6fadf92018d3e27f663e4ad20c2ba4717f3697bfb0384d10fbe7_Red spaceship 2_1.png",
+          "name": "Red spaceship 2_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Yellow Ufo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Yellow Ufo.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Ship/6510fa6b2df0f393c9912c2073836e2df499698c52875579682c7d0d21aa55eb_Yellow Ufo.png",
+          "name": "Yellow Ufo.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red spaceship 3_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red spaceship 3_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Ship/3a1624617645feba4a2b01ee3da6074c4c5c86606a595f391b5896273bf5e705_Red spaceship 3_1.png",
+          "name": "Red spaceship 3_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Black spaceship 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Black spaceship 2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Enemies/17a6611359733d2b9465d9d38c7d3fab04034de93d0d123b22b825f8b3d7790f_Black spaceship 2.png",
+          "name": "Black spaceship 2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Black spaceship 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Black spaceship 3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Enemies/605bf9b3bfaab908d965519695c396c08e2af8b35c145af26ac7fbaee23624b6_Black spaceship 3.png",
+          "name": "Black spaceship 3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Black spaceship 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Black spaceship 4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Enemies/01b206468a99e3c263c80e1d24f364b8568db0cb07b3cf4863c9568735aa3af9_Black spaceship 4.png",
+          "name": "Black spaceship 4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue spaceship 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue spaceship 2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Enemies/fe6ed07455ab3cc50343fc001e55a9c552aaed8709305e464b0d1c70ec20d7c5_Blue spaceship 2.png",
+          "name": "Blue spaceship 2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue spaceship 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue spaceship 1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Enemies/ef06a016d1910e50db4ce17b972eda3f6e249a874e2e8bbf1a263dd35ede7ccc_Blue spaceship 1.png",
+          "name": "Blue spaceship 1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue spaceship 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue spaceship 3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Enemies/4887f1f955fa4814a4fe52d34ebf2661918cbc01d0dbd06d87febdd3a2bae7af_Blue spaceship 3.png",
+          "name": "Blue spaceship 3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue spaceship 5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue spaceship 5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Enemies/6ab4d937fad58405eb837dae6ac89c46d7c9e363ddcf0b2d7fae0cd0c147e25b_Blue spaceship 5.png",
+          "name": "Blue spaceship 5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue spaceship 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue spaceship 4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Enemies/3a4902d88879c1e245d78bf0139cbc088fb835d55577ebd9b305592c85b5ff7b_Blue spaceship 4.png",
+          "name": "Blue spaceship 4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green spaceship 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green spaceship 2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Enemies/3f6b7c17f96e03ca82186124efbf860af76ae6b0bd23872532b56045e7a36f76_Green spaceship 2.png",
+          "name": "Green spaceship 2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green spaceship 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green spaceship 1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Enemies/1e454f91dc1556e798a880affecaa727ee0c4ecba4f2d11c2f38533e9fe91b40_Green spaceship 1.png",
+          "name": "Green spaceship 1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green spaceship 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green spaceship 3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Enemies/a6878f4902c8a7c09ad9360ec8522375f805b28b0c217474a15c236dfc11647a_Green spaceship 3.png",
+          "name": "Green spaceship 3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green spaceship 5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green spaceship 5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Enemies/a141a5a6883d7cd857a63c768f9dffdebc6b5d02ad5e3d292452a63890208796_Green spaceship 5.png",
+          "name": "Green spaceship 5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red spaceship 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red spaceship 1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Enemies/a08aa599fa5748e696ce1b657a85f19f8d0810165e06bae121175637c42acf6f_Red spaceship 1.png",
+          "name": "Red spaceship 1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red spaceship 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red spaceship 2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Enemies/b2fd4132b1ea06802bc825a82b3b6e4e3289bccf8ee3146b2d0020ba07c03503_Red spaceship 2.png",
+          "name": "Red spaceship 2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red spaceship 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red spaceship 3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Enemies/f3954168ec67686775cbd2b0feee99d08b662d43ca5aeb1c6884656eb3756862_Red spaceship 3.png",
+          "name": "Red spaceship 3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red spaceship 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red spaceship 4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Enemies/c5c37250f0ad6f1a25ecb23b306aac585d613559674b81206fc7fda3857d991f_Red spaceship 4.png",
+          "name": "Red spaceship 4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red spaceship 5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red spaceship 5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Enemies/cbfeceb86b1bc0a9e5ac3905de84ef69c65371360c8ca9c36ace57dd99165b06_Red spaceship 5.png",
+          "name": "Red spaceship 5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green spaceship 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green spaceship 4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Enemies/c2344442f9c1ada38131ccac6359af3d73be40895b2ed2a668fe9b9aff7ce0e4_Green spaceship 4.png",
+          "name": "Green spaceship 4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Big Brown Meteor 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Big Brown Meteor 3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Meteors/e48a908cc0cf9bdaf1e80d01caaf5847f9e0a82f874e84effcc11644b896fcb2_Big Brown Meteor 3.png",
+          "name": "Big Brown Meteor 3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Big Brown Meteor 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Big Brown Meteor 4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Meteors/af1f2c434c0743991837b52ca5744547aa31f1250534962778dadfaec74d010a_Big Brown Meteor 4.png",
+          "name": "Big Brown Meteor 4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Big Grey Meteor 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Big Grey Meteor 2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Meteors/401dea3495a58458e490689209f4c600652397a44bfc31314e80d0af334173aa_Big Grey Meteor 2.png",
+          "name": "Big Grey Meteor 2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Big Grey Meteor 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Big Grey Meteor 3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Meteors/85a5de579744c251c7430bc855d4d0c01a18b04fec07f235c08668421e9f300c_Big Grey Meteor 3.png",
+          "name": "Big Grey Meteor 3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medium Grey Meteor 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medium Grey Meteor 1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Meteors/6a941e6ecdbb53f47b27e6da917fafb7e8a9895f7110922b3953d04a885ffdfd_Medium Grey Meteor 1.png",
+          "name": "Medium Grey Meteor 1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medium Brown Meteor 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medium Brown Meteor 1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Meteors/70f274ae740166dbf45e9131bbaee2b5c18034303c527fccaed64aaedec2f1c1_Medium Brown Meteor 1.png",
+          "name": "Medium Brown Meteor 1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medium Brown Meteor 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medium Brown Meteor 3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Meteors/f3fca109541f99c7ac245865a5d3ac5a2e9956ee1dc5422b8e8230dba8265049_Medium Brown Meteor 3.png",
+          "name": "Medium Brown Meteor 3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medium Grey Meteor 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medium Grey Meteor 2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Meteors/fbc59ebb77f404b89285925cb0eca7222a8dd7aa275474583c21ea0c5713021e_Medium Grey Meteor 2.png",
+          "name": "Medium Grey Meteor 2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Brown Meteor 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Brown Meteor 1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Meteors/3de7851f43b68812b00f405856bd4e33ba5bc30b5389cda047e074ee1a2d5384_Small Brown Meteor 1.png",
+          "name": "Small Brown Meteor 1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Brown Meteor 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Brown Meteor 2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Meteors/15d4807089bc7001b573010b32ff1050bb22780986693a3f745f0846307184e5_Small Brown Meteor 2.png",
+          "name": "Small Brown Meteor 2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Grey Meteor 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Grey Meteor 1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Meteors/94f9cb0287bed6e2ffc329549af9079c4a992e74a2cb6480a2475e2a4a3b1be9_Small Grey Meteor 1.png",
+          "name": "Small Grey Meteor 1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Grey Meteor 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Grey Meteor 2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Meteors/7d296a12f13cd831f760a8cc412c205211c4183d42b43d6bd89e413cd83ccf62_Small Grey Meteor 2.png",
+          "name": "Small Grey Meteor 2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tiny Brown Meteor 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tiny Brown Meteor 1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Meteors/ac4ff538438bfca356bb1b1e4e9a96e3915075926e6997d27c4a514a7e9e84fd_Tiny Brown Meteor 1.png",
+          "name": "Tiny Brown Meteor 1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tiny Brown Meteor 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tiny Brown Meteor 2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Meteors/89173bf3578eebf005afaa5de56a383380aead96a0aa4cc2ac8c568c4da9eee3_Tiny Brown Meteor 2.png",
+          "name": "Tiny Brown Meteor 2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tiny Grey Meteor 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tiny Grey Meteor 2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Meteors/f3b7578ccd3d22b7345e56b84f8a9dc07d14b1b56b5c1950395896b07351fbdd_Tiny Grey Meteor 2.png",
+          "name": "Tiny Grey Meteor 2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tiny Grey Meteor 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tiny Grey Meteor 1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Meteors/c14c94ed964a6a34eb489434c94360c74781d888555c74414b0e042dc80d0995_Tiny Grey Meteor 1.png",
+          "name": "Tiny Grey Meteor 1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue Powerup.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Powerup.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Power-ups/b8eb1e8fb6b740e19337511e7484d7bcc3ad1df7eb1d8bc53735d137a585d78e_Blue Powerup.png",
+          "name": "Blue Powerup.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue pill.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue pill.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Power-ups/05b703b7197cb78861864aac382c1d94ecc9227895dcc6074ea55b5281949f36_Blue pill.png",
+          "name": "Blue pill.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bolt Blue Powerup.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bolt Blue Powerup.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Power-ups/71cdd1f5a4fe662782aac38d019a6e14d109286129a063f4fc5a570a37ad1926_Bolt Blue Powerup.png",
+          "name": "Bolt Blue Powerup.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bolt Yellow Powerup.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bolt Yellow Powerup.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Power-ups/4f19d1253c602cac102cdca9f15a858d57b0efc18b098ae2c0e6747a3dab4b88_Bolt Yellow Powerup.png",
+          "name": "Bolt Yellow Powerup.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bolt Red Powerup.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bolt Red Powerup.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Power-ups/8db79b936e645ce01c61d826d7c972a59414b6b2a12014ec8105099bf7f1514f_Bolt Red Powerup.png",
+          "name": "Bolt Red Powerup.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bronze bolt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bronze bolt.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Power-ups/c3e2c652b0c9b50b59455e5e1950a84a8c33835dd3f0d9448967e02502ad8320_Bronze bolt.png",
+          "name": "Bronze bolt.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bronze shield.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bronze shield.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Power-ups/c45b123fddb1bb82eb625ced53a065fc59014a9e58d09afdab563d09ce52b2e0_Bronze shield.png",
+          "name": "Bronze shield.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bolt Green Powerup.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bolt Green Powerup.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Power-ups/fc02e287dd20fd87498ef28511f5faf19ab69da8a75bf844c2e2fb3dc857f77c_Bolt Green Powerup.png",
+          "name": "Bolt Green Powerup.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bronze star.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bronze star.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Power-ups/6771f65ee5f70b346ae02aaf8eb3a014dd56932469b284259a7daee7b449f0f5_Bronze star.png",
+          "name": "Bronze star.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bronze things.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bronze things.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Power-ups/1adaa2739c675d78a8e015809bc2d6ae4b2294ecf63c1ef1a274a53e82a5f557_Bronze things.png",
+          "name": "Bronze things.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gold star.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gold star.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Power-ups/d2c87a6e3ac348938548c317e0ef9609d267e8b4ddd1438cccedb4117b5862e0_Gold star.png",
+          "name": "Gold star.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gold bolt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gold bolt.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Power-ups/df16bf56d4791e9dca5c36fbc15cbac31d8aea0664e5d254b3f9a27693d02bd4_Gold bolt.png",
+          "name": "Gold bolt.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gold shield.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gold shield.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Power-ups/77838e081e64b82a57bc952fdb106fb6bbc7c988455f81365fbc8ee6110e3255_Gold shield.png",
+          "name": "Gold shield.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gold things.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gold things.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Power-ups/0caa77c23f4a8855cdeae6b40102bf52b547d3554ca0998c76cff63f7d6db3a0_Gold things.png",
+          "name": "Gold things.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Powerup.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Powerup.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Power-ups/11a11e3fd79e175b083538685f001cbfb62f6e8c68b15b5a25b42daa8b1c018d_Green Powerup.png",
+          "name": "Green Powerup.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Powerup .png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Powerup .png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Power-ups/485384f00ed093a2338425ccd6bbb480c6ff70508ce90b9e665ad2d42814e370_Red Powerup .png",
+          "name": "Red Powerup .png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red pill.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red pill.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Power-ups/6f9d681d963cf62109aad3b85efce4b3b1bb7b7c3ce7c7f1646b4b531ef4ceb8_Red pill.png",
+          "name": "Red pill.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green pill.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green pill.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Power-ups/f59220ec53679bb0c2e47a736115de9911299db876f4bf0b38c88744f0573134_Green pill.png",
+          "name": "Green pill.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Shield Blue Powerup.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Shield Blue Powerup.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Power-ups/c6d733a3806c0d6e74832590263284192aea14fdd00e327c9928be52797e76cd_Shield Blue Powerup.png",
+          "name": "Shield Blue Powerup.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Shield Green Powerup.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Shield Green Powerup.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Power-ups/55a3c2691d58168f6317980f586530dc07caada60365c5b392b3e56f9a325a55_Shield Green Powerup.png",
+          "name": "Shield Green Powerup.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Shield Red Powerup .png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Shield Red Powerup .png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Power-ups/917fe8f87b90da2794bfcd18889d0e66ff00a169c39be77f7c867c6eee170709_Shield Red Powerup .png",
+          "name": "Shield Red Powerup .png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Shield Yellow Powerup.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Shield Yellow Powerup.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Power-ups/7d629144c58ec7409736d31cb2eb519111ad0103aa6a714a67ab1920d47b0f4b_Shield Yellow Powerup.png",
+          "name": "Shield Yellow Powerup.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Silver shield.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Silver shield.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Power-ups/6d2432b0517a9e3ab374b0c060975657bffcb616f68d42c7c1915d95dd43271a_Silver shield.png",
+          "name": "Silver shield.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Silver bolt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Silver bolt.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Power-ups/65d6f5d5f684b87b557a635a6eb5e74d7d5cff9b27a9d236155c1de1b50e1419_Silver bolt.png",
+          "name": "Silver bolt.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Silver things.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Silver things.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Power-ups/bd36908f0254766b260e94777d36248d8320a4a5ea3e50c91e48cbf3bd0efc7c_Silver things.png",
+          "name": "Silver things.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Silver star.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Silver star.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Power-ups/9b722feb74973f940b4491ba01db15fe9b3a2390a3826ac69a2bf69889fe0d37_Silver star.png",
+          "name": "Silver star.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Star Green Powerup.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Star Green Powerup.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Power-ups/970934418f7f8d5a489a9e3cb6692831c4cdf5d5bf44a8c8173c0dfb7a284717_Star Green Powerup.png",
+          "name": "Star Green Powerup.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Star Blue Powerup.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Star Blue Powerup.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Power-ups/5b28ed7cc341d8cf5cd2f8d95be89ef4a0d89d73e03b4ce982a75154bbe0d196_Star Blue Powerup.png",
+          "name": "Star Blue Powerup.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Star Red Powerup.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Star Red Powerup.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Power-ups/1910543a3b18168f38b5e3585bc54482e4c28d784fc5b7518ad5d7d9c63431b4_Star Red Powerup.png",
+          "name": "Star Red Powerup.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Star Yellow Powerup.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Star Yellow Powerup.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Power-ups/26dca08528b00fec864112bc86bbe1279c15cefdfa01f92fb6767898530f8a4a_Star Yellow Powerup.png",
+          "name": "Star Yellow Powerup.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Yellow Powerup.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Yellow Powerup.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Power-ups/27ea5c40c4186e917cb487ec0216d0426107330b2a683e5cf8bd7c5bcf903b5b_Yellow Powerup.png",
+          "name": "Yellow Powerup.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Yellow pill.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Yellow pill.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Power-ups/15b57498850b63de6b46d16ca49c7058ef5a9e2533ba5417886fc6f02399b453_Yellow pill.png",
+          "name": "Yellow pill.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue laser 04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue laser 04.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/3070803b0aa2b9e3ccba6ef2e88aa60bd972bbee0929e1e86e4c026e07334921_Blue laser 04.png",
+          "name": "Blue laser 04.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue laser 02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue laser 02.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/5be10eb7c1e57efad63fbece6ce32b4131cc280a74cec2ab077dbce00c4e0e0f_Blue laser 02.png",
+          "name": "Blue laser 02.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue laser 03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue laser 03.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/4c54fd77f4af747dd6e2f3b3a9dc264284d64e3396e85512f6b4df21acea05cf_Blue laser 03.png",
+          "name": "Blue laser 03.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue laser 05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue laser 05.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/f3de721ca2cc80e99f2451b583207ae0868487d70a230b721ebde63bbd371741_Blue laser 05.png",
+          "name": "Blue laser 05.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue laser 06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue laser 06.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/4fdd034a1b7680bf2f6404f65fbc2c98b39d70d6e340ea804e7df7d9e325aa36_Blue laser 06.png",
+          "name": "Blue laser 06.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue laser 09.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue laser 09.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/c1b151ad5863dbdd4f887056c17a1a5921ee1ca58ead45309de00a434b56dd67_Blue laser 09.png",
+          "name": "Blue laser 09.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue laser 08.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue laser 08.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/80bce2b0806054a9d1dad4baea3449cf19278c7b914d238d33efaa3836f8512e_Blue laser 08.png",
+          "name": "Blue laser 08.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue laser 07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue laser 07.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/cc070687a013dd3896b7470ab7460a0943e25666d17682024e7bb874ccd93b81_Blue laser 07.png",
+          "name": "Blue laser 07.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue laser 10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue laser 10.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/942353b7c9b051a8c6f0f7897f512fdd59ce7e5078bedc764a15a8cd65b574d4_Blue laser 10.png",
+          "name": "Blue laser 10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue laser 11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue laser 11.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/243952d81a1f9c5ca8e0460803fd0f2aa249ac757f09573b6ad7314b8f063832_Blue laser 11.png",
+          "name": "Blue laser 11.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue laser 12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue laser 12.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/85bb1a6c43e088afb9820d006a57ef1599445b8666a266e01cf8e3e614076c3a_Blue laser 12.png",
+          "name": "Blue laser 12.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue laser 13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue laser 13.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/59c76db3364636a00a731661db4464eac4809cc0f531b09326c409ba3254ffb2_Blue laser 13.png",
+          "name": "Blue laser 13.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue laser 14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue laser 14.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/e7cd407317703f3d9578012c34d2877d93929c2ecd43d71a3a45db644166854b_Blue laser 14.png",
+          "name": "Blue laser 14.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue laser 16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue laser 16.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/6b4c3886ba938d0da550445b21410dd1bf9ea4c52c1836734a9205bb71572f5a_Blue laser 16.png",
+          "name": "Blue laser 16.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green laser 01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green laser 01.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/9dc68480f202f087833fac2f58874ed1680cb556a93bdb533875e1a73676aa5e_Green laser 01.png",
+          "name": "Green laser 01.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green laser 02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green laser 02.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/4821032b4413745c83d25010bd9d88699e52e891f7760cd53e9e7613d2f52172_Green laser 02.png",
+          "name": "Green laser 02.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green laser 03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green laser 03.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/680e728a0b35f0c5ec6ed253df4b58887a97b0bd2318254f1c54fd44b28e7850_Green laser 03.png",
+          "name": "Green laser 03.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green laser 04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green laser 04.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/3527b34240e7630a5b7d11765a94dae9d604e0b972a358bbbeef8bbedf549c0c_Green laser 04.png",
+          "name": "Green laser 04.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green laser 05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green laser 05.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/2d63675ed5189f0d6b46efb2f85d78e99ff6ea45bcb478b1e17a56fd62b5935b_Green laser 05.png",
+          "name": "Green laser 05.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green laser 07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green laser 07.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/b63a0de2a4f66cd6aa3a161a5c72d192bb0de0fbc7aa8bebe3934ec9efc2aae6_Green laser 07.png",
+          "name": "Green laser 07.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green laser 06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green laser 06.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/53e1325c9090157379b809c7736d6f67b08f8bda5ed426506ab939fc5db27f2d_Green laser 06.png",
+          "name": "Green laser 06.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue laser 15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue laser 15.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/2b622e375769d8274325037148452f5e8498db32edaf28424652d4a61d5b4c4c_Blue laser 15.png",
+          "name": "Blue laser 15.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green laser 08.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green laser 08.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/eddc85386b2ab06b4426d2a28f866ebe6ca2a84484c7835b1c587e0b37ced7d0_Green laser 08.png",
+          "name": "Green laser 08.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green laser 09.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green laser 09.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/a42d39566ef8f1ce0a257d0fec82170b470197a43d96d0987214922e9bf69889_Green laser 09.png",
+          "name": "Green laser 09.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green laser 10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green laser 10.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/0eca0f3421ede8fb4e485994a43185d7ecd32919c24834eea9f75457afd7fbbf_Green laser 10.png",
+          "name": "Green laser 10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green laser 11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green laser 11.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/1003ef11637a21f7bd8a60f0e3726d91b63679b26fb032ccdcf39f206bc60a47_Green laser 11.png",
+          "name": "Green laser 11.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green laser 12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green laser 12.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/2b6907d503af02a6d3f4db8ecc62d9aa23aa79d19ba3069ed2a6625d1df9b437_Green laser 12.png",
+          "name": "Green laser 12.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green laser 13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green laser 13.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/49c6e44ca26e718999bf03dbd7f7731c64a5b82cccfe159db143250b732a1dc1_Green laser 13.png",
+          "name": "Green laser 13.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green laser 14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green laser 14.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/6397244d264cb96eaadd7bd1b7472c530c9024aa95993b999e39f7336188f17b_Green laser 14.png",
+          "name": "Green laser 14.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green laser 15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green laser 15.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/d276ab62e92cc27f2d9800c3db57638bc5c4dc8db7cb6f02f92ee58f56a751f5_Green laser 15.png",
+          "name": "Green laser 15.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green laser 16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green laser 16.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/a44e92a5432d69b6145ded3191427ab3ebe870aaea0f43f98249a6bd1111f1c4_Green laser 16.png",
+          "name": "Green laser 16.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red laser 02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red laser 02.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/b7bf70e78797b535fadd4f391fab70b5fb0f73f4ec25b79f0e989360b1b213b9_Red laser 02.png",
+          "name": "Red laser 02.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red laser 03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red laser 03.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/d1466b296f745bab21a28afab9e9596dc7d808a6a59f600052ca302c9f2e5800_Red laser 03.png",
+          "name": "Red laser 03.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red laser 04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red laser 04.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/0ecd6a6f42966774e8572abe8cef83cee5550fc27b53bd831c59fa22d6e4ca8e_Red laser 04.png",
+          "name": "Red laser 04.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red laser 08.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red laser 08.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/e0872a690cf11a8b127030f96943488c02ad163c3933719587718b7cdec369e4_Red laser 08.png",
+          "name": "Red laser 08.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red laser 09.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red laser 09.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/51cb1ff0de1021df9b375c9fce013bd20634a94889946e1835ca47562108ec64_Red laser 09.png",
+          "name": "Red laser 09.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red laser 05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red laser 05.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/f514d68a910bb31aa1ed2f249a9562642737199e3845a2c4e167e118affb28a2_Red laser 05.png",
+          "name": "Red laser 05.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red laser 06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red laser 06.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/3f8dae07f24c3f7ced74b8dc56cd53b57bc8abf9e07e1ca4867c0757a8e7cbb4_Red laser 06.png",
+          "name": "Red laser 06.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red laser 10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red laser 10.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/5f2b29e62698281cbbaf7eb2cf340924194f15d6e4606a5bfb1cb1314739143d_Red laser 10.png",
+          "name": "Red laser 10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red laser 07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red laser 07.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/13af49431ee28113ca82f2fb0e4d2925189e4c136f6dc4fc2ebea6b96503b863_Red laser 07.png",
+          "name": "Red laser 07.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red laser 11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red laser 11.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/a5a41019de0d06a9a495ac070bda51668b4e6ba950887561d8297180a888ce07_Red laser 11.png",
+          "name": "Red laser 11.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red laser 12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red laser 12.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/7cb1f1f825c6bc4204aa338b69b5c83ef2d7e179f2b99fa2d6779438f1d96276_Red laser 12.png",
+          "name": "Red laser 12.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red laser 13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red laser 13.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/c1f824ad5caa29d94c3ed2a1487cd2905f13dff8a438cb7c0b035fe0a3356138_Red laser 13.png",
+          "name": "Red laser 13.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red laser 14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red laser 14.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/74af8446a3a35f77fab1e198b66dfe58c9a16f706adb4e39efd0b5828c5ba8a2_Red laser 14.png",
+          "name": "Red laser 14.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red laser 16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red laser 16.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/ac5d8f7335af35eaaec27b8a7f012336eb71f177a2f990be94b00d976cd9d14d_Red laser 16.png",
+          "name": "Red laser 16.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red laser 15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red laser 15.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Lasers/d44cc36714e1a1523e583a137e41ac9cb8389981b242617bf9d5e7fff4e06587_Red laser 15.png",
+          "name": "Red laser 15.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Stars.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Stars.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter by Pixel boy/Background/4d8cfdae4934a160d7a712ac0242ffb00a330637bf9373f0870af014671423ea_tiled_Stars.png",
+          "name": "tiled_Stars.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Rock (3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Rock (3).png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Pack (190 assets)/Rock/c088d4ebf4f36e223b48919bb3a76916ca9351f193cde8e30c5f29d804de90c6_Rock (3).png",
+          "name": "Rock (3).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gem_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gem_No Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Resources/2a85e58f7f9ea5782bf2adc967e3b59dd24c1ce73ded086e608baa66530e1219_Gem_No Shadow.png",
+          "name": "Gem_No Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gem_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gem_Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Resources/01f9d3b58518d4cad72ef5331efe5d748e0c0326e7399c32419fda605611af8b_Gem_Shadow.png",
+          "name": "Gem_Shadow.png"
+        }
+      },
+      {
+        "file": "assets/Coins 9.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "0f42d487214284edfa1223ac335c7631292e87aea6189b24901784b4c71b44cc_Coins 9.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Coins/0f42d487214284edfa1223ac335c7631292e87aea6189b24901784b4c71b44cc_Coins 9.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chevron-Arrow-Right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chevron-Arrow-Right.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Flat/afe50706def7a47730e0556dc031759efd60c1e365f46b6f7e3c23836320730e_Chevron-Arrow-Right.png",
+          "name": "Chevron-Arrow-Right.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Starry Background Shadows 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Starry Background Shadows 2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/Backgrounds/2cfc385feb7b37522b19e6dbdc19b5edcdbe21da1a1645cb4390c66ea0f19b0a_tiled_Starry Background Shadows 2.png",
+          "name": "tiled_Starry Background Shadows 2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Starry Background Shadows 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiled_Starry Background Shadows 2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Stars.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\tiled_Stars.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Starry Background Big Star 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Starry Background Big Star 2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/Backgrounds/be74ef5f650d2044c40ba179da5a8b2832061430de189b68800ce92f4b88c33e_Starry Background Big Star 2.png",
+          "name": "Starry Background Big Star 2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/030a256d0089ea24bd4f2262ab361ce08510311c3fa285a2af6951a68e50bf57_Earth Like Planet_1.png",
+          "name": "Earth Like Planet_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/039eaa79cf2a39abf59226fcf84a626d803199f18d92a17b13059dbfe735825c_Earth Like Planet_10.png",
+          "name": "Earth Like Planet_10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_11.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/e089e6ea5a8bd3ae2656a4dc7848379ad5dd6430e941fb925d0b531c1a08d7a4_Earth Like Planet_11.png",
+          "name": "Earth Like Planet_11.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_12.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/09e8a1f87dc3689205edb460d8900d367efbb2164faa1721424c21e45f96df9a_Earth Like Planet_12.png",
+          "name": "Earth Like Planet_12.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_13.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/f574b02b74af105b8c9093e067d013a651ab9445d96fc1f1838a2f331797d95e_Earth Like Planet_13.png",
+          "name": "Earth Like Planet_13.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_14.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/41fcefb46763e94ce29d9b8748a2ccfde0dc4627eb75387317bfce5c3d643fe5_Earth Like Planet_14.png",
+          "name": "Earth Like Planet_14.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_15.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/44b4ac4f66ef46e3459497516364c0be29e96135b7288206cca7d00728af7c72_Earth Like Planet_15.png",
+          "name": "Earth Like Planet_15.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_16.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/6484a1d82dd8fea74b0938d38eb165fcf0c2885eaf7c1a642377d545c7b4f79d_Earth Like Planet_16.png",
+          "name": "Earth Like Planet_16.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_17.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/2ac4695ed6191cf297abb362f32a1d881afd2759c259924c4b6b2c52df58c55d_Earth Like Planet_17.png",
+          "name": "Earth Like Planet_17.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_18.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/807e9db8d8a266eba97a18fa3d6682b28d48ba240d3d421ef4c6eacf22a0faec_Earth Like Planet_18.png",
+          "name": "Earth Like Planet_18.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_19.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/0383391c5ce261c6e4f3d4cde1adb621881d1d46524b33fdd33bd9330e1f5ccd_Earth Like Planet_19.png",
+          "name": "Earth Like Planet_19.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/fee3ae7e9be673862d084304d5a8e7896030c1165479bff75dcd4998fa9b64e2_Earth Like Planet_2.png",
+          "name": "Earth Like Planet_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_20.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/058565c577f20478ba2d831f6b01351c2587e425d3695b9f576a96c5a4e669be_Earth Like Planet_20.png",
+          "name": "Earth Like Planet_20.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_21.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/00a54c3fd6c09933653ea5a8a557e1f3006baf2db56f9d8e5275fbdd5ab6b72e_Earth Like Planet_21.png",
+          "name": "Earth Like Planet_21.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_22.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/a6c69cff0d205aa44ec06aa71b4701e8634ee663f6d18b4c6fe443eca24e487f_Earth Like Planet_22.png",
+          "name": "Earth Like Planet_22.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_23.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/e4f874e08550854633b37346b91753f7904634e41308a7eba2df794bdcf9e90a_Earth Like Planet_23.png",
+          "name": "Earth Like Planet_23.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_24.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/780d9fed88a45be78475ab2f0ecddfe9b318d7a804ae779f99fd1d82924ef097_Earth Like Planet_24.png",
+          "name": "Earth Like Planet_24.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_25.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/6a91fc008f536eb64fee169d5c31f64202396138075847a3612b5db4490593c1_Earth Like Planet_25.png",
+          "name": "Earth Like Planet_25.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_26.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/4bfa967b6389b1c43017e50bbfe749889082048b8ff4a4beaaaf0b9ade38019a_Earth Like Planet_26.png",
+          "name": "Earth Like Planet_26.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_27.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/6ffb992366508ba01bf17c4d4f7dc34437b9b355508500914782e544c27a6271_Earth Like Planet_27.png",
+          "name": "Earth Like Planet_27.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_28.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_28.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/2dc6f3220777b051e2288b4aed9b0357f3c759149e251f7e407e487dca8b209d_Earth Like Planet_28.png",
+          "name": "Earth Like Planet_28.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_29.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/0401f1dd9c96c8a6a3068d958c78db475358a99c41f38841ac280c0aac12cc0f_Earth Like Planet_29.png",
+          "name": "Earth Like Planet_29.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/d944b58a48c6fa47229a0b456d703c47683024f7b44df723b3b95dc86bf57c8c_Earth Like Planet_3.png",
+          "name": "Earth Like Planet_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_30.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_30.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/226c1e99d2bfbd31edf69a34f7446150e2db309eff75d8bab635cba2781252b3_Earth Like Planet_30.png",
+          "name": "Earth Like Planet_30.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_31.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_31.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/e133b35acc0b9e072c3b969923038e39a40a1ce72b36e29d8341eac71125687d_Earth Like Planet_31.png",
+          "name": "Earth Like Planet_31.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_32.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/9a18c93c66a28a4cc6e0fdadd26a832f3d6fe59214159a4214b4d4563a0e8b39_Earth Like Planet_32.png",
+          "name": "Earth Like Planet_32.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_33.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/2b394d4ce1a29c1af9ed27c45491ac3d66c4d8d2e8cae5dd282b2e06e2d0b43b_Earth Like Planet_33.png",
+          "name": "Earth Like Planet_33.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_34.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/4a63bc86ca9f38e2bab9021b2c3731e8dc4fad3967bb54fd0f49a44b5090a07b_Earth Like Planet_34.png",
+          "name": "Earth Like Planet_34.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_35.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_35.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/449148d7ee6919cf7ed41d0a7b1ebb6f02b9cff8ae4339227c67918aa3cf3856_Earth Like Planet_35.png",
+          "name": "Earth Like Planet_35.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_36.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/abddec96a3f36bb933f6a06fc458fb8fa6f7a589704b3f5e6493c6fa505ea48d_Earth Like Planet_36.png",
+          "name": "Earth Like Planet_36.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_37.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_37.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/31988a81c99ce932ee6e17dc2e03c8adcdfaa2c97587c84fad4fd83ce1c7a529_Earth Like Planet_37.png",
+          "name": "Earth Like Planet_37.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_38.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_38.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/3160726a0eea295cc383c6e895ed0016fd3f2df2436a8975fb09b8b7254d481e_Earth Like Planet_38.png",
+          "name": "Earth Like Planet_38.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_39.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_39.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/ef6bf824edca15163992a5a5ad70941437363f7ac9fa64ef16493867c4860217_Earth Like Planet_39.png",
+          "name": "Earth Like Planet_39.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/d9abc465a68d8dd62ebb34ff79f6409e3db72bd95a73f34f757bbb057742fc66_Earth Like Planet_4.png",
+          "name": "Earth Like Planet_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_40.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_40.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/4543f34ef3f28a7697cf3a270284f3b277c24370c6e2da4c443ac45171e58c57_Earth Like Planet_40.png",
+          "name": "Earth Like Planet_40.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_41.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_41.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/e60bbe3598cdd279b3c0dedde130489d137a040acb4169478febfe5712e2c277_Earth Like Planet_41.png",
+          "name": "Earth Like Planet_41.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_42.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_42.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/b5a4889d3f4cea438ea1e3ee1e03a5d5fe49434d0e3047fa400d7b8ad3c630de_Earth Like Planet_42.png",
+          "name": "Earth Like Planet_42.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_43.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_43.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/db3d428306c96d4740e923153622b63f4d9bd2f779a63e4a4cfa4d9cd22ba29d_Earth Like Planet_43.png",
+          "name": "Earth Like Planet_43.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_44.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_44.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/51db98c45153e567bbf0e010e39e9f16f2f4f6c074cb33e4465f0ea34e7043b9_Earth Like Planet_44.png",
+          "name": "Earth Like Planet_44.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_45.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_45.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/834fe7945087707c2759a511736fdee8e9d1a199560ebeafae8306ab5c638f91_Earth Like Planet_45.png",
+          "name": "Earth Like Planet_45.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_46.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_46.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/68398d1d5ec04644e09fb8432ed6c6c0a206b72ce02597cadd88fe3a38a59e8c_Earth Like Planet_46.png",
+          "name": "Earth Like Planet_46.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_47.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_47.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/99773c4ff69a1c4847e39bd6e8a405fa3e6de162af45ba063b9817c4fece6030_Earth Like Planet_47.png",
+          "name": "Earth Like Planet_47.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_48.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/3a54369db174dfecd97548b0c4ea0a7ad5f8aa5e6fc62fdede770863346ad8b6_Earth Like Planet_48.png",
+          "name": "Earth Like Planet_48.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_49.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_49.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/ef4a4d026b97d0d189c02c474d11ae78613d48ab24273c51e61b34a283824c11_Earth Like Planet_49.png",
+          "name": "Earth Like Planet_49.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/8abc87d9b94b77b861291ee706c946eb46135f40c085d137bb98bd2f60d4cf3e_Earth Like Planet_5.png",
+          "name": "Earth Like Planet_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_50.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_50.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/7df421a221e5c09ea6d3f9f8d4c239503bbed01392072c1f3efe01112cbd6131_Earth Like Planet_50.png",
+          "name": "Earth Like Planet_50.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_51.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_51.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/0533101334ee78051dbc5781648bed754920902c193deef8edf8ef0ae65c6685_Earth Like Planet_51.png",
+          "name": "Earth Like Planet_51.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_52.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_52.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/dc60046ff64feb27b0c908818eb07e3ef3f703804f37bc0524555e15ad6fbc75_Earth Like Planet_52.png",
+          "name": "Earth Like Planet_52.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_53.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_53.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/1e51becef8ec286e31ece6d7f5a747e85061fa73c2fe0bd9aefbfded5a432806_Earth Like Planet_53.png",
+          "name": "Earth Like Planet_53.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_54.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_54.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/6c7ab9a23cb6c463fff68f82c1716297db0e6b50015a768a7a944b73c8d4d41c_Earth Like Planet_54.png",
+          "name": "Earth Like Planet_54.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_55.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_55.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/87859087aefed50382305a429c52fc558739cee32839ae8a3e38b0117279a752_Earth Like Planet_55.png",
+          "name": "Earth Like Planet_55.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_56.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_56.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/eaa20ba3d558665f2c4d11ecba885712a6c2cff2f0b24bee75670d6ea73d8cd5_Earth Like Planet_56.png",
+          "name": "Earth Like Planet_56.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_57.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_57.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/89254f03ff7c795e4779cf78fc7fcbcaab897b83bebcff2852c48e3c92fe25f3_Earth Like Planet_57.png",
+          "name": "Earth Like Planet_57.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_58.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_58.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/cf4f4641b388cbb738ae7097f64b0d1322aeba63c01fe3445fdce5b0f8f156ed_Earth Like Planet_58.png",
+          "name": "Earth Like Planet_58.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_59.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_59.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/ce081d530e9f32b8b4d00146ecf1877381f12c60bec13623d0c17c8f6fa8380f_Earth Like Planet_59.png",
+          "name": "Earth Like Planet_59.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/7b6a57a0e53b3c857ba4b57e60b7b77b6a16842eb73bc26f7584046c788b706c_Earth Like Planet_6.png",
+          "name": "Earth Like Planet_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_60.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_60.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/914accab673f29ccc1123a8c1ae5e2a4d8ea535e5fb56d233a72dee56e2d1172_Earth Like Planet_60.png",
+          "name": "Earth Like Planet_60.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_61.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_61.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/4bc2c1c7fbac2b71e93c2aa9a2b91fec8395f6034da6478a793a39dd5c85c847_Earth Like Planet_61.png",
+          "name": "Earth Like Planet_61.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_62.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_62.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/4ceb742bfb48836c0dd8b3cdebfa32bb172dd9260f2d07a5b1025ffa5127fc48_Earth Like Planet_62.png",
+          "name": "Earth Like Planet_62.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_63.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_63.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/bc0a3446e53bbc7a7cf1fa14b7e6efc9a65958941e1379673461e5137fe1af23_Earth Like Planet_63.png",
+          "name": "Earth Like Planet_63.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_64.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_64.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/fda4a5776c2e78135e18d5c5529cd40e92e2a5c4d07e4dab2df95f38911a7395_Earth Like Planet_64.png",
+          "name": "Earth Like Planet_64.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_65.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_65.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/ed22ff417f185bac77a488e21e4425f6e4ff4679e7dac2e7ac8bdb7f9fc0d02b_Earth Like Planet_65.png",
+          "name": "Earth Like Planet_65.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_66.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_66.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/7b2c8a6d5826b64850e9664707eebde04d4de0d2bfa91f22db46e50b305ddb95_Earth Like Planet_66.png",
+          "name": "Earth Like Planet_66.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_67.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_67.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/789c84fecf9477beca0090b41eb35dc0c3f5a1d90b31ff249e9b1be3eabe852c_Earth Like Planet_67.png",
+          "name": "Earth Like Planet_67.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_68.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_68.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/9b055e654675f334bd11029254bce0acec779eb824b16432db783425feeb6d9d_Earth Like Planet_68.png",
+          "name": "Earth Like Planet_68.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_69.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_69.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/3ea06af330734b78415298bd6b753f3597f0748e18b686f4a2bbeb1709c48ae3_Earth Like Planet_69.png",
+          "name": "Earth Like Planet_69.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/6e21cb3472245970ae3c729e73c4bf1d79dfb5002c608d89c2d9a9ab0873bf7c_Earth Like Planet_7.png",
+          "name": "Earth Like Planet_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_70.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_70.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/c9cc02aa3d2f2dc0018e6822349ea5f1ca467c12ae5aca7b4a0701212af17656_Earth Like Planet_70.png",
+          "name": "Earth Like Planet_70.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_71.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_71.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/2ad06555fc4142740cffb31fee58c2fe67cf07f7ba700657fa3f6df097e18399_Earth Like Planet_71.png",
+          "name": "Earth Like Planet_71.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_72.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_72.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/b92c2a902aebb3537afe9946c28587cfeae4ea41e6db76d1c54d8179a45d95c3_Earth Like Planet_72.png",
+          "name": "Earth Like Planet_72.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_73.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_73.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/af2c5b68962868d4e9b5f3948a60151e59a0031a172d4c76d9e5747b11d94938_Earth Like Planet_73.png",
+          "name": "Earth Like Planet_73.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_74.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_74.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/706422068b1f81108e9f22d80cc69a2d7cc2007785bd1d84a24e2891e2fdf918_Earth Like Planet_74.png",
+          "name": "Earth Like Planet_74.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_75.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_75.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/69d737bcd190730a8db423647ce403fc9adc5b4f0931faf23f3e19037436db2f_Earth Like Planet_75.png",
+          "name": "Earth Like Planet_75.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_76.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_76.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/b09dfa116c92dd52888df5f8165d9ad1575bb6652340287875e7b4a500d3daf9_Earth Like Planet_76.png",
+          "name": "Earth Like Planet_76.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_77.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_77.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/ab201448b053f92447f16fc1aebbadfb0088ae18fc956553d88be8ea40e0a52d_Earth Like Planet_77.png",
+          "name": "Earth Like Planet_77.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/c5d6fd54e38c3229dd521ffbb5f65df46bb97d0986adca525cfd0c17c0a4439f_Earth Like Planet_8.png",
+          "name": "Earth Like Planet_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/adadd23461ff8d06dd76ddc1eafae35ca234df11a4ae7b59955275de72a2ce97_Earth Like Planet_9.png",
+          "name": "Earth Like Planet_9.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/4a8f39951be203b0bb5579020580d98274801a79a8dfd34bbcff1b3ded55d4fb_Earth Like Planet_No Back Glow_1.png",
+          "name": "Earth Like Planet_No Back Glow_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/d02e21876ea74a19d550ea77972af3030174e0f4084e4e7b09674e998a515a3a_Earth Like Planet_No Back Glow_10.png",
+          "name": "Earth Like Planet_No Back Glow_10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_11.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/54c9fdc32f626911db4d05e75e72f766bd947fdc782b20c4152bd6fd553721c4_Earth Like Planet_No Back Glow_11.png",
+          "name": "Earth Like Planet_No Back Glow_11.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_12.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/3bc618d5414c2db680917eb51b684b10be9667c753e9e15ecd1d54eb930f173a_Earth Like Planet_No Back Glow_12.png",
+          "name": "Earth Like Planet_No Back Glow_12.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_13.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/3a782c41ab0b8d32f37c2c88aacb06e09ceb8e9e1e0ec89cc3bef94ba892bf50_Earth Like Planet_No Back Glow_13.png",
+          "name": "Earth Like Planet_No Back Glow_13.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_14.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/cc618b2b5d4a4d2b3c43bc5e943dd64f36369aae4e430b35039cee5cfed5fc11_Earth Like Planet_No Back Glow_14.png",
+          "name": "Earth Like Planet_No Back Glow_14.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_15.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/a694d2a3e71305952a9eb53719c562b6ebd5814d348a81ecafb5f227dbab646f_Earth Like Planet_No Back Glow_15.png",
+          "name": "Earth Like Planet_No Back Glow_15.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_16.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/9672290c2922cedb94f1ce69a0572516c087dc2a85e4f8383caac73844fb9e9c_Earth Like Planet_No Back Glow_16.png",
+          "name": "Earth Like Planet_No Back Glow_16.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_17.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/45d8109d2228eb59c6dd07fc912124d49fe41239c00e27210a0c4826e4e8d5b9_Earth Like Planet_No Back Glow_17.png",
+          "name": "Earth Like Planet_No Back Glow_17.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_18.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/152ae7e3225225e003af99ba173291f9a15188fbd4d1cb57b0baa9ea099128d7_Earth Like Planet_No Back Glow_18.png",
+          "name": "Earth Like Planet_No Back Glow_18.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_19.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/078bd17b4863e4098910f4393d62188a0b72ad92d977a040de429e4c43c852fc_Earth Like Planet_No Back Glow_19.png",
+          "name": "Earth Like Planet_No Back Glow_19.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/5fa71f743b52a4b37ab1e0b2711a3502cf60e64980bae42e9afef44c49d33a6c_Earth Like Planet_No Back Glow_2.png",
+          "name": "Earth Like Planet_No Back Glow_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_20.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/94f80f08032fa32b9a0ad5fb0e02af0db080a01e2ba270ec42245fcabeb41e78_Earth Like Planet_No Back Glow_20.png",
+          "name": "Earth Like Planet_No Back Glow_20.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_21.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/1a7886573bcaeddf6aa0e614b59f425e115b65490b282b3c1962b1b129371866_Earth Like Planet_No Back Glow_21.png",
+          "name": "Earth Like Planet_No Back Glow_21.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_22.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/6cf5a6f9ee0093ad948b22f4fd373e27a5914c09fd07fb598f901b8905abe1db_Earth Like Planet_No Back Glow_22.png",
+          "name": "Earth Like Planet_No Back Glow_22.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_23.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/2d26b2827db2a8c6b6b24c0104a6e3beabc4de2021388504b12419527f1e9d37_Earth Like Planet_No Back Glow_23.png",
+          "name": "Earth Like Planet_No Back Glow_23.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_24.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/938fbb7ffbe4468e3d08ee66b701e2f16a7eaf4930dc3bdda6b23885553f20f1_Earth Like Planet_No Back Glow_24.png",
+          "name": "Earth Like Planet_No Back Glow_24.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_25.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/68b76980f012b87bf53b7982fd37f57ce0148e716f4a46d6f8da9ab42e971a4e_Earth Like Planet_No Back Glow_25.png",
+          "name": "Earth Like Planet_No Back Glow_25.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_26.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/b078e6cacde9a67377f0291dea46140f0d8c74d100e030b05e1a73b0b6fb1e42_Earth Like Planet_No Back Glow_26.png",
+          "name": "Earth Like Planet_No Back Glow_26.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_27.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/bd224597fc9ccfb6d04c6a450fd2f7cc280aef4052486016ce17528c747494f9_Earth Like Planet_No Back Glow_27.png",
+          "name": "Earth Like Planet_No Back Glow_27.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_28.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_28.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/050e425d6918bfcb9b446b548f664450accce7fa2dd40cbf6345dbd0a64e4bd7_Earth Like Planet_No Back Glow_28.png",
+          "name": "Earth Like Planet_No Back Glow_28.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_29.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/ccda4b1716bd41b089a476849b1570ffc6200c49c2f230aac51d0e852e032621_Earth Like Planet_No Back Glow_29.png",
+          "name": "Earth Like Planet_No Back Glow_29.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/dd218eaa84071deb7e481d40886ee34a423fce5498b30c5f2ee9d03498047ce1_Earth Like Planet_No Back Glow_3.png",
+          "name": "Earth Like Planet_No Back Glow_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_30.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_30.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/131d62242863514cdb56c8d458f5ad9b99914092c13ff08e72a285e05986cc9e_Earth Like Planet_No Back Glow_30.png",
+          "name": "Earth Like Planet_No Back Glow_30.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_31.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_31.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/4f9de5459307902d53425922640937307437beff31f57402878e0c0609e7d87d_Earth Like Planet_No Back Glow_31.png",
+          "name": "Earth Like Planet_No Back Glow_31.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_32.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/a0647c972e9d9fd996d520827d7e1d4f162e1fe3ffad5d4a9c42a740b293538f_Earth Like Planet_No Back Glow_32.png",
+          "name": "Earth Like Planet_No Back Glow_32.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_33.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/e29ea669b782970919b016b4d4e5e78173252203baf176029e47d38e6cd803f3_Earth Like Planet_No Back Glow_33.png",
+          "name": "Earth Like Planet_No Back Glow_33.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_34.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/607a0ad060955b53b9daaae91d6cf9986cacd4d7fb662a7d0d61aef10e85f2a0_Earth Like Planet_No Back Glow_34.png",
+          "name": "Earth Like Planet_No Back Glow_34.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_35.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_35.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/7134b829b905f850d1838e75f7d93df9d21a47d135881062c9a58e92191c0cfb_Earth Like Planet_No Back Glow_35.png",
+          "name": "Earth Like Planet_No Back Glow_35.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_36.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/faaf4f6e183b26648b71f1d45293aaa2046732acb3c61eddf9647e7404be9d5c_Earth Like Planet_No Back Glow_36.png",
+          "name": "Earth Like Planet_No Back Glow_36.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_37.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_37.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/409ba22a218367ca3d469e0a329965d562b513e12c0751f06ad9392fe481b315_Earth Like Planet_No Back Glow_37.png",
+          "name": "Earth Like Planet_No Back Glow_37.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_38.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_38.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/3024380f6e16752dd12ae1d61fd8bfc2394fe3b759e87aab7739e80c825b463d_Earth Like Planet_No Back Glow_38.png",
+          "name": "Earth Like Planet_No Back Glow_38.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_39.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_39.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/c5dcb83d533bc15000bd547bf7fbdd7967022c1ebcaffd8f9e4140d9f9cabd73_Earth Like Planet_No Back Glow_39.png",
+          "name": "Earth Like Planet_No Back Glow_39.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/4b4145b9af6fd9aabaf99dcbb9862305a524d82ca839058be298940359bdcffa_Earth Like Planet_No Back Glow_4.png",
+          "name": "Earth Like Planet_No Back Glow_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_40.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_40.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/525c0864e8663d0a6e68579d770507b650faf0f2403e7cef69d08d2e69667947_Earth Like Planet_No Back Glow_40.png",
+          "name": "Earth Like Planet_No Back Glow_40.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_41.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_41.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/a4a3a5c68a884e48eff9c21c97beeca73f0e693919b684eb3e13495109723019_Earth Like Planet_No Back Glow_41.png",
+          "name": "Earth Like Planet_No Back Glow_41.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_42.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_42.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/e754030fb1eff700feb05a6d8d372b22b253333ddeace3017954fe84416c2f81_Earth Like Planet_No Back Glow_42.png",
+          "name": "Earth Like Planet_No Back Glow_42.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_43.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_43.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/be160883c742761c9c5c50d8a17ecc62414d56e0146027860670132a79ed0b8c_Earth Like Planet_No Back Glow_43.png",
+          "name": "Earth Like Planet_No Back Glow_43.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_44.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_44.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/d898bee7de53eede32f5747fa03f66cca91bd723d5271d0bd003c8a131484228_Earth Like Planet_No Back Glow_44.png",
+          "name": "Earth Like Planet_No Back Glow_44.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_45.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_45.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/8a8e99f005ae99dce15d4ba2e783e9b8a8ed535798df825db73bfd138be95ba2_Earth Like Planet_No Back Glow_45.png",
+          "name": "Earth Like Planet_No Back Glow_45.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_46.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_46.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/8c3b6dfd284d50a5d52e5d7f11282c671da9fdd99201568fcf307bf2089d0e42_Earth Like Planet_No Back Glow_46.png",
+          "name": "Earth Like Planet_No Back Glow_46.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_47.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_47.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/e5e9e0c521cd173e51174fa231e262553c784a2004a4cd8a90b53005b3ac1936_Earth Like Planet_No Back Glow_47.png",
+          "name": "Earth Like Planet_No Back Glow_47.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_48.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/a42d572af5149dbe1f21b17286ac5e528e7298b9a0ed671b0a771c21c935692c_Earth Like Planet_No Back Glow_48.png",
+          "name": "Earth Like Planet_No Back Glow_48.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_49.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_49.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/10d3531b536a6636debc9d1bb65d3681713268324bc6a1768772834cdab756da_Earth Like Planet_No Back Glow_49.png",
+          "name": "Earth Like Planet_No Back Glow_49.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/aa302ef522d98060afe0e2374ad9ec52bb27f22001eaf5208f14c01af11274d2_Earth Like Planet_No Back Glow_5.png",
+          "name": "Earth Like Planet_No Back Glow_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_50.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_50.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/04c5fd2f06d19b57aa085314cfae44b4ad3ea901e68ffed078837f81cd4717d9_Earth Like Planet_No Back Glow_50.png",
+          "name": "Earth Like Planet_No Back Glow_50.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_51.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_51.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/d829d85c98893a28e882a16a0d8590bbcd9033e66ffc76b9b69026c0aef6149b_Earth Like Planet_No Back Glow_51.png",
+          "name": "Earth Like Planet_No Back Glow_51.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_52.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_52.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/4afa5becab2d90dfbc1816cc2e973b7fb7f4c6081fd1ddae533e7a116ae7f676_Earth Like Planet_No Back Glow_52.png",
+          "name": "Earth Like Planet_No Back Glow_52.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_53.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_53.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/845da5870934ab4a1bee4275ca29340d19d0317fb0b1e6c41ec957bf09bdab61_Earth Like Planet_No Back Glow_53.png",
+          "name": "Earth Like Planet_No Back Glow_53.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_54.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_54.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/98eab2448b99a027aed212288be62c02537dcfeabcafd477be0f276e42b66712_Earth Like Planet_No Back Glow_54.png",
+          "name": "Earth Like Planet_No Back Glow_54.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_55.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_55.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/c5858a7d3ef120ccfd962f563fb02e66e37c71c5ab91ccacaa0c9ffa6a866d4b_Earth Like Planet_No Back Glow_55.png",
+          "name": "Earth Like Planet_No Back Glow_55.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_56.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_56.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/25caf34e28f35724fa5fb9dd7cf77ebeb330e99126cc0ddd3b19e7d59ca1d001_Earth Like Planet_No Back Glow_56.png",
+          "name": "Earth Like Planet_No Back Glow_56.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_57.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_57.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/a76731a58914fbcb0bdedeb41b475c0f9abbe170d20c211d00069ff80cb4221f_Earth Like Planet_No Back Glow_57.png",
+          "name": "Earth Like Planet_No Back Glow_57.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_58.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_58.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/6a26871fba0fe2c4eb706a7f18c3836955c55e996fe3ef37a99476a82ead1a59_Earth Like Planet_No Back Glow_58.png",
+          "name": "Earth Like Planet_No Back Glow_58.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_59.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_59.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/30182213876be71cbb6afd154def5b6532d38067952984fe6755703d5573898d_Earth Like Planet_No Back Glow_59.png",
+          "name": "Earth Like Planet_No Back Glow_59.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/0d197710c10eae0e0dadfcfafdfc298287b596c4c5ca544a6e6b4261cdc2db37_Earth Like Planet_No Back Glow_6.png",
+          "name": "Earth Like Planet_No Back Glow_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_60.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_60.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/c8bd825b2f8d2a96f21c7e0cc507534e90d86304d3776b644f57fd3b9e411b66_Earth Like Planet_No Back Glow_60.png",
+          "name": "Earth Like Planet_No Back Glow_60.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_61.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_61.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/c0b3e1b739797f570381d347b2a3e82363533398ea6d674d70ac5fb914dce138_Earth Like Planet_No Back Glow_61.png",
+          "name": "Earth Like Planet_No Back Glow_61.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_62.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_62.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/0f9305956d5e8e2ec6bac776ac475c82220b89502dcb081a67c262c0ab6d5cfe_Earth Like Planet_No Back Glow_62.png",
+          "name": "Earth Like Planet_No Back Glow_62.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_63.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_63.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/8d11f72a0116296da6ddda676a4c0dc4ad02742ebe16e0a5b9cc8cf33af27552_Earth Like Planet_No Back Glow_63.png",
+          "name": "Earth Like Planet_No Back Glow_63.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_64.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_64.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/d898c84e30ef3a9c5a8112e6527a506a2541a4f108c9acff545247415987a350_Earth Like Planet_No Back Glow_64.png",
+          "name": "Earth Like Planet_No Back Glow_64.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_65.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_65.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/b6d824974f6540f3a3e98d0ff7f88716f49000a36c1f81b3b25a2b908f52bf84_Earth Like Planet_No Back Glow_65.png",
+          "name": "Earth Like Planet_No Back Glow_65.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_66.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_66.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/df5c947cc7f754dec0a2eee8ef13da5800d09bbfc25f59128cebe46507198068_Earth Like Planet_No Back Glow_66.png",
+          "name": "Earth Like Planet_No Back Glow_66.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_67.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_67.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/5075841ab08a559a10f6cb7b0e917a2b95e1466211440689fd458f9b64f85ee0_Earth Like Planet_No Back Glow_67.png",
+          "name": "Earth Like Planet_No Back Glow_67.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_68.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_68.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/15fe37060261a47792a5b370722b443f335e32103cda66430472406d2214ce58_Earth Like Planet_No Back Glow_68.png",
+          "name": "Earth Like Planet_No Back Glow_68.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_69.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_69.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/c2030c5097dbab6bee57c1393bb01c61d0b364ee3257543675ee04e9eb31d538_Earth Like Planet_No Back Glow_69.png",
+          "name": "Earth Like Planet_No Back Glow_69.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/d688b4fc1edf6f7af30c7e5b1ecfbaaf16ae3f2d0a5775da5e97637bc0c95222_Earth Like Planet_No Back Glow_7.png",
+          "name": "Earth Like Planet_No Back Glow_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_70.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_70.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/49865429bbc0c125d4c9ffe2972ac477f89306a7a040c4f458354608bb346207_Earth Like Planet_No Back Glow_70.png",
+          "name": "Earth Like Planet_No Back Glow_70.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_71.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_71.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/0b0dd673fae17b5a685840b32ab0eb1b3d291c4968e644a0775e3f1538a6bca7_Earth Like Planet_No Back Glow_71.png",
+          "name": "Earth Like Planet_No Back Glow_71.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_72.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_72.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/025d4de3eccd4b5fa5bdf6f1a1b8fc1f1edf55a3aadc6b0ea2a43d7d4caf4199_Earth Like Planet_No Back Glow_72.png",
+          "name": "Earth Like Planet_No Back Glow_72.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_73.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_73.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/3e6c817112a861fc35a7ad502dfdddcdf007e6ea63a8e6a162d66d2f394b80ce_Earth Like Planet_No Back Glow_73.png",
+          "name": "Earth Like Planet_No Back Glow_73.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_74.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_74.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/9f4a9995761965a507b4c3036a3c9cdf54419a8a3dc30c2b0d321a8b27b2c043_Earth Like Planet_No Back Glow_74.png",
+          "name": "Earth Like Planet_No Back Glow_74.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_75.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_75.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/942531e66faa0a1ce19271dbf8cb1adc6deaccb9cb89bec7f3127670b44e1843_Earth Like Planet_No Back Glow_75.png",
+          "name": "Earth Like Planet_No Back Glow_75.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_76.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_76.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/ad18efeea84280db2313717ef7167d74a4a33c144fabd3afa8fe3b61cd4adad4_Earth Like Planet_No Back Glow_76.png",
+          "name": "Earth Like Planet_No Back Glow_76.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_77.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_77.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/7510fee98b0d601a25de2006bd40dcddc926dd94cdde11fb625b6c1bdc62f0f3_Earth Like Planet_No Back Glow_77.png",
+          "name": "Earth Like Planet_No Back Glow_77.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/cd51425c968a20ebb5fff1c46283e1c11f15fd4263fe2f3ee583e148721e649a_Earth Like Planet_No Back Glow_8.png",
+          "name": "Earth Like Planet_No Back Glow_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Earth Like Planet_No Back Glow_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Earth Like Planet_No Back Glow_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Environment Pack/03ed56fc5bab4ca1f5a8c7859263b2706b1aa9846e2e156021f334d3241d6a65_Earth Like Planet_No Back Glow_9.png",
+          "name": "Earth Like Planet_No Back Glow_9.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Black Hole.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Black Hole.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter by Pixel boy/Background/3616fdb9dd0f758d3e9aa4921c95f1666021016946330dc51a65e29b2477f9a1_Black Hole.png",
+          "name": "Black Hole.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue laser 02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Blue laser 02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red laser 10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Red laser 10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Big gun.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Big gun.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/scan.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\scan.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/invs.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\invs.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Reload.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Reload.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/laser.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\laser.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/laser.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\laser.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Laser.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Laser.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/long laser.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\long laser.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bfg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\bfg.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue laser 16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Blue laser 16.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image5.png\"}",
+        "name": "New image5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Health Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Health Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter by Pixel boy/Hud/Bar/f8e5d88f8b377f182d5d42adf0bf9bc5f94034ac24c410f07ba27c46cda841c3_Health Bar.png",
+          "name": "Health Bar.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Health_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Health_01.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Retro Pixelart UI/Pixel art/UI/a815e0c32e8d96c3c9a186c4e28ea7712ff2278da167b7fef747c7169922896b_Health_01.png",
+          "name": "Health_01.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Health_01_Bar01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Health_01_Bar01.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Retro Pixelart UI/Pixel art/UI/a3178a0b43f6cc9ae792638abe7d209f714b0eca84dc6a582d59131851da1be7_Health_01_Bar01.png",
+          "name": "Health_01_Bar01.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Health_01_Bar02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Health_01_Bar02.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Retro Pixelart UI/Pixel art/UI/dc4c992005dae5ea58c7e78c99d9312641e7459b82e2dba6c8b9053a8e9c984e_Health_01_Bar02.png",
+          "name": "Health_01_Bar02.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Health Bar Box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Health Bar Box.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Hud/Bar/e6e666707e06c429f6dd475d85d575a5b69a1dc27369a8f1d06a747afa2f1264_Health Bar Box.png",
+          "name": "Health Bar Box.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dot Bar Green Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dot Bar Green Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/e0754c6008a7f3ec35ce32d663263982cd7a67f91974977d1c1247b90891b1b9_Dot Bar Green Border.png",
+          "name": "Dot Bar Green Border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dot Bar Green Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dot Bar Green Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/11956f33bb9a6ca4997feced357ff80d8b2597367951d4ab34cd67d5a2d8b054_Dot Bar Green Fill Bar.png",
+          "name": "Dot Bar Green Fill Bar.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Copper Bar Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Copper Bar Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/1310fa26ab130bebfe59cdfa310836bfed3ca8d190cfed17a7dd3bdfe0a2a87f_Copper Bar Border.png",
+          "name": "Copper Bar Border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Framed Pixel Red Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Framed Pixel Red Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/ed31faa46e5c04883605d72470e0f3bfe1c2e679dc6a4a632ab03e105866ff8b_Framed Pixel Red Fill Bar.png",
+          "name": "Framed Pixel Red Fill Bar.png"
+        }
+      },
+      {
+        "file": "assets/final.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\final.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/boss entry.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\boss entry.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/boss passive.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\boss passive.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Button With Shadow_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Button With Shadow_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/71ee2c8d8b72808c7f084252cd36c80c44bc07655a3729e5fe7459c634007e8a_Red Button With Shadow_Hovered.png",
+          "name": "Red Button With Shadow_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Button With Shadow_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Button With Shadow_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/6c6bf020fb86d99a9ecc993f8b90064d73d757bc2408050cf353c84bc36f6be2_Red Button With Shadow_Idle.png",
+          "name": "Red Button With Shadow_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Button With Shadow_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Button With Shadow_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/b9ce526450d48adedb6875043465ae168fff1f6b01dd1ff7f43b7e7c1568cc21_Red Button With Shadow_Pressed.png",
+          "name": "Red Button With Shadow_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/CantoraOne-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "CantoraOne-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/05b0c1364a92b436b86ca819e66b63480d1bc2fb399f6c0cf8bffbf8199ccc2a_CantoraOne-Regular.ttf",
+          "name": "CantoraOne-Regular.ttf"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image7",
+        "smoothed": true,
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/frontliner"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/title-screen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/fighter"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/tracker"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/scouts"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/credits"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritecontinuousbar"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/homingprojectile"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/health"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/isonscreen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/faceforward"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/linearmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/spritemultitouchjoystick"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/ellipsemovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/turret"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/buttonstates"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/topdownmovementanimator"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/boidsmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/firebullet"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
